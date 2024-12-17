@@ -1,2 +1,6 @@
 include: [".well-known"]
-theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: ".well-known/apple-app-site-association"
+    values:
+      content_type: "application/json"
